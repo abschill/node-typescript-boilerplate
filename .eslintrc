@@ -1,10 +1,6 @@
 {
     "parserOptions": {
         "emcaVersion": "latest",
-        "ecmaFeatures": {
-            "legacyDecorators": true,
-            "jsx": true
-        }
     },
     "env": {
         "shared-node-browser": true
