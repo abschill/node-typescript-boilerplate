@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "removeComments": true,
+        "sourceMap": true,
+        "rootDirs": [
+            "./src",
+            "./utils",
+            "./config"
+        ],
+        "target": "es5",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "outDir": "./dist/",
+        "resolveJsonModule": true,
+        "paths": {
+            "utils": [
+                "*"
+            ],
+            "config": [
+                "*"
+            ],
+            "static": [
+                "*"
+            ]
+        }
+    }
+}

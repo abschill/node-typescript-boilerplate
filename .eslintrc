@@ -1,0 +1,17 @@
+{
+    "parserOptions": {
+        "emcaVersion": "latest",
+        "ecmaFeatures": {
+            "legacyDecorators": true,
+            "jsx": true
+        }
+    },
+    "env": {
+        "shared-node-browser": true
+    },
+    "rules": {
+        "no-console": true,
+        "require-atomic-updates": true,
+        "semi": true
+    }
+}
